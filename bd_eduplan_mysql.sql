@@ -37,7 +37,13 @@ CREATE TABLE StudyPlans (
 
 INSERT INTO Subjects (SubjectName, Importance, Difficulty) VALUES ('Matemática', 85, 40);
 INSERT INTO Users (Name, Password, Email, StudyHoursPerDay, CanStudyWeekends) VALUES ('Gui', 'guilherme2012', 'guilhermecaio@gmail.com', 4, True);
+ALTER TABLE StudyPlans ADD COLUMN materia VARCHAR(255);
 
+SELECT *
+FROM Users
 
 SELECT *
 FROM Subjects
+
+SELECT *
+FROM Studyplans

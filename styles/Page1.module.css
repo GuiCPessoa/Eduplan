@@ -1,0 +1,35 @@
+/* page1.module.css */
+
+.page1-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .page1-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .page1-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .page1-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .page1-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .page1-button:hover {
+    background-color: #0056b3;
+  }
+  

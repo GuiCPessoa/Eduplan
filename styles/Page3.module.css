@@ -1,0 +1,115 @@
+/* page3.module.css */
+
+.page3Container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page3Heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .subjectInputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .subjectInputContainer input[type="text"],
+  .subjectInputContainer input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subjectInputContainer button {
+    background-color: #0070f3;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subjectInputContainer button:hover {
+    background-color: #0052cc;
+  }
+  
+  .subjectList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subjectList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .subjectList button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .subjectList button:hover {
+    background-color: #cc0000;
+  }
+  
+  .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .goBackButton {
+    background-color: #0070f3;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .goBackButton:hover {
+    background-color: #0052cc;
+  }
+  
+  .buttonsContainer button {
+    background-color: #0070f3;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonsContainer button:hover {
+    background-color: #0052cc;
+  }
+  
+
+  .error {
+    color: red; /* Cor do texto de erro */
+    margin-top: 8px; /* Espaço superior para separar a mensagem de erro dos campos de entrada */
+    font-size: 14px; /* Tamanho da fonte da mensagem de erro */
+    /* Outros estilos de sua escolha */
+  }
