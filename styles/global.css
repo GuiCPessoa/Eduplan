@@ -1,0 +1,20 @@
+/* styles/globals.css */
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos específicos para links */
+  a {
+    text-decoration: none;
+    color: #0070f3;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
